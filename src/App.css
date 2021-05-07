@@ -1,0 +1,81 @@
+
+*{
+  font-family: 'Courier New', Courier, monospace;
+}
+body{
+ margin: 0px;
+}
+.todo-app{
+  background-color: #000;
+  height: 100vh;
+}
+
+.item-row{
+  display: grid;
+  width: 30%;
+  grid-template-columns: 50% 50%;
+  text-align: right;
+  margin-top: 20px;
+  background-color: #006cfa;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+}
+.todo-cointainer{
+  max-width: 40%;
+  background-color: rgb(41, 41, 41);
+  min-height: 50vh;
+  max-height: auto;
+  padding: 20px;
+}
+.todo-cointainer h1{
+  color: #fff;
+}
+.icons{
+  text-align: left;
+  margin-left: 20px;
+}
+.item{
+  margin-right: 20px;
+}
+.delete-icon{
+  margin-right: 10px;
+  cursor: pointer;
+}
+.edit-icon{
+  margin-left: 10px;
+  cursor: pointer;
+}
+.delete-icon:hover,.edit-icon :hover{
+  color: rgb(196, 196, 196);
+}
+.todo-input{
+  height: 20px;
+  border: 1px solid rgb(0, 89, 255);
+  background-color: black;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+
+}
+.todo-button{
+  height: 42px;
+  margin-left: 10px;
+  background-color: #045cff;
+  color: #fff;
+  border-radius: 5px;
+  border: 0px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.todo-button:hover{
+  background-color: #0041bb ;
+
+}
+.todo-header{
+  color: #fff;
+  margin-top: 0px;
+  padding-top: 20px;
+}
